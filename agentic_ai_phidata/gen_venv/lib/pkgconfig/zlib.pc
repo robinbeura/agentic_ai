@@ -1,0 +1,13 @@
+prefix=/Users/robinbeura/Desktop/project/genai_framework_phidata/gen_venv
+exec_prefix=/Users/robinbeura/Desktop/project/genai_framework_phidata/gen_venv
+libdir=/Users/robinbeura/Desktop/project/genai_framework_phidata/gen_venv/lib
+sharedlibdir=/Users/robinbeura/Desktop/project/genai_framework_phidata/gen_venv/lib
+includedir=/Users/robinbeura/Desktop/project/genai_framework_phidata/gen_venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
